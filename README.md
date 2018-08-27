@@ -30,10 +30,7 @@ to generate the scaffolding for this app.
 
 ## Requirements
 
-#### Build a responsive web application that allows a user to quick filter 
-#### a list of things. The top of the page will have a search input field 
-#### and below it a list of things in response to the filter sorted
-#### alphabetically. The things should be AJAX pulled from an open public API. 
+Build a responsive web application that allows a user to quick filter a list of things. The top of the page will have a search input field and below it a list of things. The top of the page will have a search input field and below it a list of things in response to the filter sorted alphabetically. The things should be AJAX pulled from an open public API.
 
 I used axios within React to get the JSON posts data from Reddit API. The search
 input field will be used to query subreddit topics. 
