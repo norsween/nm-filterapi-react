@@ -1,0 +1,107 @@
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.App-header {
+  height: 50px;
+  padding: 5px;
+  text-indent: 25px;
+  background-color: #DDE1EB;
+  width: 100%;
+  max-width: 100%;
+}
+
+.App-title {
+  font-size: 1.3em;
+  font-weight: 20;
+  color: dimgrey;
+}
+
+.App {
+  background-color: whitesmoke;
+}
+
+#search-field .fa-search { 
+  position: absolute;
+  top: 22px;
+  left: 383px;
+  color: dimgrey;
+}
+
+form#search-field {
+  top: -2px;
+  right: 0; 
+  padding: 1rem;
+  position: absolute;
+  width: 30%;
+  height: 25px;
+  color: white;
+  text-align: right;
+}
+
+#search-field label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+#search-field input[type="text"] {
+  width: 70%;
+  background: white;
+  padding: 0.2rem 0.66rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  height: 2.0rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-indent: 10px;
+}
+
+#search-field input[type="submit"]:active {
+  box-shadow: 0 2px;
+  transform: translateY(3px);
+}
+
+.hero-title {
+  color: dimgrey;
+  text-align: center;
+  margin-top: 170px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.point-title {
+  text-align: center;
+  color: dimgrey;
+  margin-left: 80px;
+  font-size: 1.1rem;
+}
+
+.point-description {
+  font-family: "Jenson", cursive;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 110px;
+  color: rgb(30, 144, 255);
+  text-align: center;
+}
+
+.column-left {
+    float: left;
+    width: 20%;
+    height: 400px;
+    background-color: white;
+    max-width: 20%;
+    overflow-x: auto;
+    text-align: center;
+    font-family: lato;
+}
+
+.column-right{
+    float: right;
+    width: 70%;
+    max-width: 70%;
+    height: 400px;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+    font-family: lato;
+}
